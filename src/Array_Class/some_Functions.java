@@ -12,7 +12,7 @@ public class some_Functions {
         for(int b:a)
             System.out.print(b+" ");
         System.out.println();
-        int r = Arrays.binarySearch(a,1);
+        int r = Arrays.binarySearch(a,4);
         System.out.println(r);
     }
 }
