@@ -8,7 +8,7 @@ public class comparison {
         int b=sc.nextInt();
         String p = (a==b)?"Equal no.":"Not Equal no.";
         System.out.println(p);
-        int num=1020;
+        int num=102;
         String q=(num==100)?"yes":"no";
         System.out.println(q);
     }
