@@ -23,6 +23,7 @@ public class Emp {
         System.out.println("City : "+ city);
         System.out.println("Salary : "+sal);
         System.out.println();
+
     }
 }
 //for 1 employee
