@@ -3,5 +3,8 @@ package oops;
     Java does not support Nested method.
     Method parameter does not have a default value.     */
 public class method {
+    public static void main(String[] args) {
+
+    }
 
 }
