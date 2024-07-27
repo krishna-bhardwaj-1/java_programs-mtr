@@ -28,13 +28,30 @@ public class student {
         System.out.println("Average of marks: "+avg);
     }
 }
+//class T2{
+//    public static void main(String[] args) {
+//        student s1=new student();
+//        student s2=new student();
+//        s1.getdata();
+//        s2.getdata();
+//        s1.disp();
+//        s2.disp();
+//    }
+//}
+
+// N students info
 class T2{
     public static void main(String[] args) {
-        student s1=new student();
-        student s2=new student();
-        s1.getdata();
-        s2.getdata();
-        s1.disp();
-        s2.disp();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter no of students: ");
+        int n=sc.nextInt();
+        student[] s=new student[n];
+        for(int i=0;i<n;i++){
+            s[i]=new student();
+            s[i].getdata();
+        }
+        for(int i=0;i<n;i++){
+            s[i].disp();
+        }
     }
 }
